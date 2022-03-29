@@ -1,0 +1,231 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.col6, .col3, .col4{
+    float: left;
+    padding: 0 15px;
+}
+.col6{
+    width: 50%;
+}
+.col5{
+    width: calc((100% * 5) / 12);
+}
+.col4{
+    width: calc((100% * 4) / 12);
+}
+.col3{
+    width: calc((100% * 3) / 12);
+}
+/* hero section */
+.hero-sec{
+    background-image: url(../image/hero-img.jpg);
+    padding: 230px 0px 180px;
+    background-repeat: no-repeat;
+ 
+    background-position: center;
+    background-size: cover;
+}
+.heri-info{
+    background-attachment: fixed;
+}
+.sec-heading{
+    font-size: 52px;
+    font-weight: bold;
+    color: #eee;
+}
+.sec-para{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #eee;
+}
+.btn{
+    width: 160px;
+    height: 47px;
+    background-color: #fb527a;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #eee;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-right: 30px;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    color: #fb527a;
+    background-color: #eee;
+    transition-duration: all 1s ease;
+}
+/* ------------------service card section ---------------------- */
+.service-card{
+    padding-top: 112px;
+}
+.card-heading h3{
+    font-size: 39px;
+    font-weight: bold;
+    color: #393636;
+    text-transform: uppercase;
+}
+.card{
+    width: 251px;
+    height: 298px;
+    border: 2px solid #e6e7e6;
+    border-radius: 5px;
+    padding: 50px 0px 70px;
+    box-shadow: 0px 0px 11px -9px;
+    transition: all 0.3s ease;
+}
+.card:hover{
+    transform: translatey(-5px);
+}
+.card i{
+    font-size: 52px;
+    color: #fb527a;
+    margin-bottom: 33px;
+}
+.card h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: #4a4c4c;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+.card p{
+    font-size: 11px;
+    font-weight: bold;
+    color: #4a4c4c;
+    width: 130px;
+    margin: 0 auto;
+}
+.card:hover h3{
+    transform: scale(1.5);
+}
+
+/* ----------------------- video part------------------ */
+
+.video-title h3, h4{
+    color: #393636;
+}
+.video-title h3{
+    font-size: 31px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.video-title h4{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.video-img{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.8)), url(../image/video-img.png);
+    height: 538px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+}
+.plat-btn{
+    height: 146px;
+    width: 145px;
+    background-color: #fb527a;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.video-img i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 52px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* -------------------------target card section ------------------ */
+.target{
+    padding: 124px 0px 124px;
+    background-color: #f7f3f7;
+}
+.card-info{
+    box-shadow: 0px 0px 14px -3px;
+    padding: 85px 32px 62px 46px;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+.card-info i{
+    font-size: 41px;
+    color: #313431;
+    transition: all 0.5s ease-in-out;
+}
+.card-info h3{
+    color: #4a4c4c;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    transition: all 0.5s ease-in-out;
+}
+.card-info hr{
+    height: 2px;
+    width: 50px;
+    background-color: #ff507a;
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 33px;
+    transition: all 0.5s ease-in-out;
+}
+.card-info:hover{
+    background-color: #ff507a;
+    color: #fff;   
+    transform: scale(1.02);
+    box-shadow: 0px 0px 14px -5px;
+    border-radius: 5px;
+}
+.card-info:hover i, .card-info:hover h3{
+   color: #fff;
+}
+.card-info:hover hr{
+    background-color: #fff;
+}
+
+/* ---------------------------------meet section----------------------- */
+
+.meet{
+    padding: 87px 0px 186px;
+    background-color: #fff;
+}
+.meet h3, h5{ 
+    color: #000;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.meet h3{
+    font-size: 27px;
+}
+.meet h5{
+    font-size: 21px;
+}
+.meet p{
+    width: 487px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.icon a{
+    text-decoration: none;
+}
+.icon i{
+    color: #fff;
+    background-color: #fb527a;
+    padding: 10px;
+    border-radius: 2px;
+
+}

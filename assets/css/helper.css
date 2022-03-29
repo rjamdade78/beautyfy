@@ -1,0 +1,49 @@
+.container{
+    width: 1090px;
+    margin: 0 auto;
+}
+.containerb{
+    width: 1180px;
+    margin: 0 auto;
+}
+.row,
+.row::after,
+.row::before{
+    width: 100%;
+    clear: both;
+    display: table;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.mb-22{
+    margin-bottom: 22px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-35{
+    margin-bottom: 35px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-55{
+    margin-bottom: 55px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.mb-85{
+    margin-bottom: 85px;
+}
+.mb-133{
+    margin-bottom: 113px;
+}
+
+.mb-65{
+    margin-bottom: 65px;
+}
+.text-center{
+    text-align: center;
+}
